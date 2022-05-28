@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Thành Công</title>
+    <link rel="stylesheet" href="Dathang.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="home1">
+        <div id="logo">
+            <img src="./Avata/Dì Xuân.png" alt="">
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="home.html"> Trang Chủ</a></li>
+                <li><a href="Hoakhaitruong.html">Hoa Khai Trương</a></li>
+                <li><a href="Hoabo.html">Hoa Bó</a></li>
+                <li><a href="Hoakinhvieng.html">Hoa Kính Viếng</a></li>
+                <li><a href="Hoalang.html">Hoa Lãng</a></li>
+            </ul>
+        </div>
+        <div id="menu2">
+            <i class="fa-solid fa-phone fa-2x">
+                <ul class="nav1">
+                    <li>0762076275</li>
+                    <li>0368637455</li>
+                    <li>0908857725</li>
+                </ul>
+            </i>
+            <i class="fa-solid fa-user-pen fa-2x">
+                <ul class="nav2">
+                    <li><a href="register.html"><button onclick="location.href='register.html'">Register</button></a></li>
+                    <li><button>Log in</button></li>
+                </ul>
+            </i>
+        </div>
+    </div>
+    <div class="sp_new">
+        <div class="img_sp">
+            <img src="./hoakhaitruong/ktr1.png" alt="DiXuanflowers">
+        </div>
+        <div class="text_ip">
+            <p>D94820 - Hoa Tươi Chúc Mừng</p> 
+            <b>1,300,000đ</b>
+        </div>
+    </div>
+    <div class="chat">
+        <div class="chat_small">
+            <h2>Vui lòng nhập thông tin của bạn! </h2>
+            <div class="name">
+            <input type="text" id="first-name" placeholder="Tên">
+            <input type="text" id="phone-number" placeholder="Số điện thoại" >
+            </div>
+            <br> Ngày Nhận (ngày tháng và thời gian): <input type="datetime-local" name="datetime_local" id="date"><br><br>
+            <br> <button class="open-modal-btn">Mua Ngay</button>
+        </div>
+    </div> 
+    <div class="modal hide">
+        <div class="pyro"><div class="before"></div><div class="after"></div></div>
+        <div class="modal__inner">
+          <div class="modal__header">
+            <p>Welcome to Di Xuân FLowers</p>
+            <i class="fas fa-times"></i>
+          </div>
+          <div class="modal__body">
+            <h2>Dì Xuân FLowers</h2>
+            <p>Bạn đã đặt thành công!</p>
+          </div>
+          <div class="modal__footer">
+            <button>Close</button>
+          </div>
+        </div>
+      </div>
+    <div class="data-run">
+        <marquee direction="right">DiXuanflowers.com</marquee>
+    </div>
+</body>
+<script src="dathang.js"></script>
+</html>

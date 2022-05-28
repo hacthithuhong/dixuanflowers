@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="home1">
+        <div id="logo">
+            <img src="./Avata/Dì Xuân.png" alt="">
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="home.html"> Trang Chủ</a></li>
+                <li><a href="Hoakhaitruong.html">Hoa Khai Trương</a></li>
+                <li><a href="Hoabo.html">Hoa Bó</a></li>
+                <li><a href="Hoakinhvieng.html">Hoa Kính Viếng</a></li>
+                <li><a href="Hoalang.html">Hoa Lãng</a></li>
+            </ul>
+        </div>
+        <div id="menu2">
+            <i class="fa-solid fa-phone fa-2x">
+                <ul class="nav1">
+                    <li>0762076275</li>
+                    <li>0368637455</li>
+                    <li>0908857725</li>
+                </ul>
+            </i>
+            <i class="fa-solid fa-user-pen fa-2x">
+                <ul class="nav2">
+                    <li><a href="register.html"><button onclick="location.href='register.html'">Register</button></a></li>
+                    <li><a href="login.html"><button onclick="location.href='login.html'">Log in</button></a></li>
+                </ul>
+            </i>
+        </div>
+    </div>
+
+    <div class="register">
+        <h1>Dì Xuân Flowers</h1>
+        <h3>Đăng ký</h3>
+        <form action="success.html">
+        <div class="info">
+            <div class="name">
+                <input type="text" id="last-name"placeholder="Họ">
+            <input type="text" id="first-name" placeholder="Tên">
+            </div>
+            <input type="text" placeholder="Số điện thoại" id="phone-number">
+            <div class="password">
+                <input type="password" id="password" placeholder="Mật khẩu">
+                <input type="password" id="cofirm" placeholder="Xác nhận">
+            </div>
+            <select required id="gender">
+                <option value="" disabled selected>Giới tính</option>
+                <option value="male">Nam</option>
+                <option value="female">Nữ</option>
+                <option value="other">Khác</option>
+            </select>
+        </div>
+            <div id="container">
+                <div class="cover">
+                 <div class="front" >
+                   <img src="./hoabo/h8.jpg">    
+                  </div>
+                 <div class="back" >
+                   <img src="./hoakhaitruong/ktr6.jpg">     
+                  </div>
+                   <div class="top" >
+                   <img src="./hoabo/h13.jpg">       
+                  </div>
+                 <div class="bottom" >
+                   <img src="./hoakinhvieng/kv2.jpg">
+                    </div>
+                 <div class="left" >
+                   <img src="./hoakinhvieng/kv1.jpg">
+                  </div>
+                 <div class="right">
+                   <img src="./hoakhaitruong/ktr2.webp">    
+                  </div>
+                </div>
+            </div>
+        
+        <input type="submit" class="submit" value="Đăng Ký">
+           <div id="nut"> <a href="login.html">Đăng Nhập</a></div>
+        </form>
+    </div>
+    <div class="end">
+        <p>Copyright © HẮC THỊ THU HỒNG</p> 
+    </div>
+</body>
+</html>

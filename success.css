@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Montserrat:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: rgb(243, 229, 212);
+  flex-direction: column;
+  color: #34a072;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#menu{
+  height: 80px;
+  margin-top: -85px;
+  margin-left: -130px;
+}
+#menu ul li { 
+  list-style: none;
+  display: inline;
+  margin: 10px;
+  font-size: 23px;
+}
+a{
+  font-size: 25px;
+  text-decoration: none;
+  color: #545454;
+}
+a:hover{
+  color: #34a072;
+}
+#logo img{
+  margin-right: 1000px;
+  height: 130px;
+  width: 130px;
+  border-radius: 100%;
+}
+li:hover{
+  color: #34a072;
+}
+#menu2{
+  display: flex;
+  height: 90px;
+  width: 200px;
+  margin-top: -78px;
+  float: left;
+  margin-left: 80%;
+}
+.fa-2x{
+  color: #545454;
+  font-size: 23px;
+  margin: 0px 20px;
+}
+.fa-2x:hover{
+  color: #34a072;
+}
+
+#menu2 .nav1{
+  border-radius: 20px;
+  width: 160px;
+  height: 100px;
+  margin: 30px;
+  margin-left: -80px;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(252, 213, 162);
+}
+#menu2 ul li{
+  text-align: center;
+  margin-top: 10px;
+}
+.nav1{
+  display: none;
+  position: absolute;
+}
+#menu2 .nav1 li:hover{
+  color: #545454;
+}
+
+#menu2 .fa-phone:hover .nav1{
+  display: block;
+}
+
+#menu2 .nav2{
+  border-radius: 20px;
+  width: 160px;
+  height: 60px;
+  margin-left: -120px;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(252, 213, 162);
+}
+
+.nav2{
+  display: none;
+  position: absolute;
+}
+
+#menu2 .fa-user-pen:hover .nav2{
+  display: block;
+  margin-top: 30px;
+}
+
+#menu2 .nav2 li:hover{
+  color: #545454;
+}
+
+button{
+  background-color: antiquewhite;
+  font-size: 20px;
+  margin: -5px;
+  border-radius: 10px;
+  color: #34a072;
+}
+
+button:hover {
+  color: #545454;
+}
+.data-container{
+  height: 230px;
+}
+
+.snip1582 {
+  cursor:pointer;
+  position:relative;
+  background: white;
+  font-size:28px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  transition:all 1s;
+  box-shadow: 2px 2px 7px;
+  background-color: #fff;
+  border: none;
+  color: #34a072;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'BenchNine', Arial, sans-serif;
+  font-size: 1em;
+  font-size: 35px;
+  line-height: 1em;
+  margin: 15px 15px;
+  outline: none;
+  padding: 15px 50px 15px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 750px;
+  margin-top: 10%;
+}
+
+.snip1582:before,
+.snip1582:after {
+  border-color: transparent;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+
+.snip1582:before {
+  border-color: #34a072;
+  border-top-width: 2px;
+  left: 0px;
+  top: -5px;
+}
+
+.snip1582:after {
+  border-bottom-width: 2px;
+  border-color: #34a072;
+  bottom: -5px;
+  right: 0px;
+}
+
+.snip1582:hover,
+.snip1582.hover {
+  background-color: black;
+}
+
+.snip1582:hover:before,
+.snip1582.hover:before,
+.snip1582:hover:after,
+.snip1582.hover:after {
+  height: 100%;
+  width: 100%;
+}
+h1{
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+p{
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+i{
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+
+.data-run marquee{
+  border: 1px solid rgb(255, 255, 255);
+  position: static;
+  font-size: 30px;
+  margin-top: 100px;
+  background-color: rgba(247, 197, 213, 0.468);
+  border-radius: 10px;
+}
